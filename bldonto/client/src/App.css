@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Tilt Neon", cursive;
+}
+
+/*NAVBAR*/
+.navbar-container {
+  background-image: linear-gradient(#091442, #0e1e5b, #3562a6);
+  display: flex;
+  gap: 2em;
+  padding: 1em 2em;
+}
+
+.navbar-container img {
+  width: 30px;
+}
+
+.navbar-container a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/*UNIVERZÁLIS*/
+
+.univerzalis-container {
+  margin: auto;
+  padding-bottom: 2em;
+  width: 80%;
+}
+
+.univerzalis-container table {
+  border: 1px solid black;
+}
+
+.univerzalis-container table td {
+  border: 1px solid black;
+}
+
+.univerzalis-container table td input {
+  border: none;
+}
+
+.univerzalis-container a {
+  color: #091442;
+  text-decoration: none;
+}
+
+/*JATEKOSOK*/
+
+.jatekosok-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+/*HOME*/
+.home-container h1 {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.kep-container {
+  display: grid;
+  grid-template-columns: 37% 23% 40%;
+}
+
+.kep-container img {
+  display: block;
+  width: 400px;
+  margin: auto;
+}
+
+.vs img {
+  display: block;
+  width: 300px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+/*CITY*/
+
+.city-container img {
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.city-container button {
+  width: 200px;
+  margin-bottom: 0.5em;
+}
+
+.citygomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-container a {
+  text-align: center;
+  color: #6594c0;
+  text-decoration: none;
+}
+
+.city-container p {
+  text-align: center;
+}
+
+/*ONECITYPLAYER*/
+.onecity-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.citykep {
+  display: block;
+  margin: auto;
+}
+
+.citykep img {
+  width: 500px;
+}
+
+.cityinfo {
+  text-align: center;
+}
+
+.cityinfo p {
+  gap: 1em;
+}
+
+/*INTER*/
+.inter-container img {
+  display: block;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.inter-container button {
+  width: 175px;
+  margin-bottom: 0.5em;
+}
+
+.intergomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inter-container a {
+  color: #0e1e5b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.inter-container p {
+  text-align: center;
+}
+
+/*INTERONEPLAYER*/
+.oneinter-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.interkep {
+  display: block;
+  margin: auto;
+}
+
+.interkep img {
+  width: 400px;
+}
+
+.interinfo {
+  text-align: center;
+}
+
+/*JATEKOSFELVETEL*/
+
+.felvetel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0e1e5b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3562a6;
+}
+
+/*MÓDOSÍTÁS*/
+
+h2 {
+  color: #0e1e5b;
+  padding-bottom: 1em;
+  text-decoration: none;
+}
